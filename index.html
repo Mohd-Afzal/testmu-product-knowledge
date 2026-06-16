@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Module 1 · Product Knowledge — TestMu AI</title>
+<meta name="description" content="TestMu AI (formerly LambdaTest) — Module 1 Product Knowledge handbook for BDRs, SDRs, AEs & AMs." />
+<link rel="preconnect" href="https://www.youtube-nocookie.com" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<!-- mobile top bar -->
+<div class="mobile-bar">
+  <strong>📘 Module 1 · Product Knowledge</strong>
+  <select id="mobileJump"><option>Jump to…</option></select>
+</div>
+
+<div class="shell">
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">T</div>
+      <div>
+        <h1>TestMu&nbsp;AI</h1>
+        <small>Module 1 · Product Knowledge</small>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="part">Start here</div>
+      <a href="#start"><span class="n">00</span>Welcome &amp; how to use this</a>
+      <a href="#journey"><span class="n">0.1</span>The learning journey</a>
+      <a href="#assignment"><span class="n">0.2</span>The assignment — how to ace it</a>
+
+      <div class="part">Part 1 · Software foundations</div>
+      <a href="#frontend"><span class="n">1.1</span>Front end, back end &amp; UI/UX</a>
+      <a href="#apis"><span class="n">1.2</span>APIs — how systems talk</a>
+      <a href="#architecture"><span class="n">1.3</span>Monolith vs microservices</a>
+      <a href="#integrations"><span class="n">1.4</span>Integrations, cloud &amp; OSS</a>
+
+      <div class="part">Part 2 · How software is built</div>
+      <a href="#sdlc"><span class="n">2.1</span>The SDLC — 6 phases</a>
+      <a href="#methodologies"><span class="n">2.2</span>Agile, Waterfall &amp; DevOps</a>
+      <a href="#cicd"><span class="n">2.3</span>CI/CD &amp; environments</a>
+
+      <div class="part">Part 3 · How software is tested</div>
+      <a href="#stlc"><span class="n">3.1</span>The Testing Life Cycle (STLC)</a>
+      <a href="#frontend-testing"><span class="n">3.2</span>Frontend testing explained</a>
+      <a href="#testing-types"><span class="n">3.3</span>Types of testing</a>
+      <a href="#jargon"><span class="n">3.4</span>Testing jargon</a>
+
+      <div class="part">Part 4 · Where TestMu AI fits</div>
+      <a href="#fit"><span class="n">4.1</span>TestMu AI in the SDLC</a>
+      <a href="#walkthrough"><span class="n">4.2</span>Product walkthrough (demos)</a>
+
+      <div class="part">Part 5 · Go to market</div>
+      <a href="#gtm"><span class="n">5.1</span>Mission, ICP &amp; competition</a>
+      <a href="#messaging"><span class="n">5.2</span>Messaging &amp; objections</a>
+
+      <div class="part">Part 6 · Study</div>
+      <a href="#flashcards"><span class="n">6.0</span>Flashcard decks</a>
+    </nav>
+  </aside>
+
+  <!-- ============ CONTENT ============ -->
+  <main class="content">
+    <div class="page">
+
+      <!-- ===== HERO / START ===== -->
+      <section id="start" class="hero">
+        <span class="pill">For BDRs · SDRs · AEs · AMs</span>
+        <h3>Module 1 — Product Knowledge</h3>
+        <p class="lead" style="color:#dde3ff">Everything you need to understand <strong style="color:#fff">how modern software is built, tested, and shipped</strong> — and exactly where <strong style="color:#fff">TestMu&nbsp;AI</strong> (formerly LambdaTest) fits into that story.</p>
+        <p>This handbook is sequenced as a journey. Start at the top and read down: each part builds on the one before it, so by the time you reach the product you already understand the problems it solves.</p>
+        <div class="meta">
+          <div><b>6</b>guided parts</div>
+          <div><b>14</b>product demos</div>
+          <div><b id="totalCards">500+</b>study flashcards</div>
+          <div><b>~3 hrs</b>to complete</div>
+        </div>
+      </section>
+
+      <section>
+        <h4>How to use this handbook</h4>
+        <div class="grid three">
+          <div class="card"><span class="tag">1 · Read in order</span><p>The parts go foundations → build → test → product → market. Skipping ahead means the product section won't land as well.</p></div>
+          <div class="card"><span class="tag">2 · Watch the demos</span><p>Every product feature has a short video embedded in Part&nbsp;4. Watch them — the assignment expects you to describe what you saw.</p></div>
+          <div class="card"><span class="tag">3 · Drill the flashcards</span><p>Part&nbsp;6 has 500+ flashcards grouped by topic. Use them the day before your assignment to lock everything in.</p></div>
+        </div>
+        <div class="callout key"><span class="ic">🔑</span><div><h5>One naming note</h5><p><strong>TestMu&nbsp;AI is the new name for LambdaTest.</strong> Older videos and decks still say "LambdaTest" — treat the two as the same product throughout this handbook.</p></div></div>
+      </section>
+
+      <!-- ===== JOURNEY ===== -->
+      <section id="journey">
+        <h2 class="sec">Orientation</h2>
+        <h3>The learning journey</h3>
+        <p class="lead">Here's the path. Notice it mirrors the real life of a piece of software — which is also the story you'll tell a prospect.</p>
+        <div class="journey">
+          <div class="step"><div class="num">1</div><b>Foundations</b><span>How apps are built</span></div>
+          <div class="step"><div class="num">2</div><b>Build</b><span>SDLC &amp; DevOps</span></div>
+          <div class="step"><div class="num">3</div><b>Test</b><span>STLC &amp; testing</span></div>
+          <div class="step"><div class="num">4</div><b>Product</b><span>TestMu AI fits in</span></div>
+          <div class="step"><div class="num">5</div><b>Market</b><span>ICP &amp; messaging</span></div>
+          <div class="step"><div class="num">6</div><b>Study</b><span>Flashcards</span></div>
+        </div>
+        <div class="callout tip"><span class="ic">🧭</span><div><p><strong>Why this order?</strong> You can't sell quality engineering until you understand what "quality" and "engineering" mean to a developer. Parts 1–3 give you that vocabulary; Part 4 shows how every TestMu&nbsp;AI feature answers a pain you just learned about.</p></div></div>
+      </section>
+
+      <!-- ===== ASSIGNMENT ===== -->
+      <section id="assignment">
+        <h2 class="sec">Orientation</h2>
+        <h3>The assignment — how to ace it</h3>
+        <p>Your end-of-module assignment tests whether you can <strong>connect a customer's technical reality to a TestMu&nbsp;AI capability</strong>. Reviewers are looking for these four things:</p>
+        <div class="grid two">
+          <div class="card"><span class="tag">Vocabulary</span><p>Use the right words — SDLC, STLC, regression, CI/CD, cross-browser, flaky tests — correctly and naturally.</p></div>
+          <div class="card"><span class="tag">Cause → effect</span><p>Name a real pain ("manual testing doesn't scale past 100 people") and tie it to a feature ("HyperExecute parallelises it").</p></div>
+          <div class="card"><span class="tag">The journey</span><p>Show you understand where in the build/test lifecycle the pain occurs — Plan, Author, Execute or Analyse.</p></div>
+          <div class="card"><span class="tag">Objection handling</span><p>Be ready to pivot the three classic objections (devices, market-leader, complexity). See Part&nbsp;5.</p></div>
+        </div>
+        <div class="callout assign"><span class="ic">🎯</span><div><h5>Quick win</h5><p>If you only have one hour before the assignment: read Part&nbsp;3 (testing) and Part&nbsp;4 (product fit), then run the <a class="inline" href="#flashcards">Testing</a> and <a class="inline" href="#messaging">Go-To-Market</a> flashcard decks once each.</p></div></div>
+      </section>
+
+      <!-- =====================================================
+           PART 1 — FOUNDATIONS
+           ===================================================== -->
+      <section id="frontend">
+        <h2 class="sec">Part 1 · Software foundations</h2>
+        <h3>Front end, back end &amp; UI/UX</h3>
+        <p class="lead">Every app a customer ships has two halves and one feeling. Get these straight and the rest of the module clicks.</p>
+        <div class="grid two">
+          <div class="card"><span class="tag">Front end</span><p>The part users <strong>see and touch</strong> — buttons, screens, visuals. Built with <strong>HTML, CSS &amp; JavaScript</strong>. Think of it as the <em>shop window</em>.</p></div>
+          <div class="card"><span class="tag">Back end</span><p>The hidden engine — <strong>server, database &amp; application logic</strong> — that makes things work. Think of it as the <em>kitchen</em>.</p></div>
+        </div>
+        <div class="analogy"><b>Restaurant analogy:</b> the front end is the waiter taking your order; the back end is the chef preparing it. The front end <em>requests</em> data, the back end <em>processes and returns</em> it. A great app needs both working together seamlessly.</div>
+        <h5>UI vs UX — the difference reps confuse most</h5>
+        <table class="tbl">
+          <tr><th>UI (User Interface)</th><th>UX (User Experience)</th></tr>
+          <tr><td>What you <strong>see and touch</strong> — buttons, colours, layout.</td><td>How it <strong>feels to use</strong> — easy, enjoyable, frustrating.</td></tr>
+          <tr><td>Door analogy: the <strong>handle</strong>.</td><td>Door analogy: how <strong>smoothly the door opens</strong>.</td></tr>
+          <tr><td>UI testing = does every button work and respond?</td><td>UX testing = is the whole journey smooth and intuitive?</td></tr>
+        </table>
+        <p>Why it matters for you: TestMu&nbsp;AI lives mostly on the <strong>front-end side of quality</strong> — making sure what users see and do works across every browser and device. We'll go deep on that in <a class="inline" href="#frontend-testing">Part&nbsp;3.2</a>.</p>
+      </section>
+
+      <section id="apis">
+        <h2 class="sec">Part 1 · Software foundations</h2>
+        <h3>APIs — how systems talk</h3>
+        <p class="lead">API = <strong>Application Programming Interface</strong>. It's the contract that lets two pieces of software talk without either knowing the other's internal mess.</p>
+        <div class="analogy"><b>Restaurant analogy:</b> you (an app) want a service. The kitchen (another app) provides it. The <strong>waiter is the API</strong> — they carry your <em>request</em> and bring back a <em>response</em>, and you never need to see the kitchen.</div>
+        <h5>How an API call works</h5>
+        <ul>
+          <li>A <strong>request</strong> has a server endpoint URL + a request method (usually <code>HTTP</code>).</li>
+          <li>A <strong>response</strong> has three parts: a <strong>status code</strong>, a <strong>header</strong>, and a <strong>body</strong> (the data, in JSON or XML).</li>
+          <li>You've seen status code <code>404</code> — "URL not found".</li>
+        </ul>
+        <p>Real example: Apple's weather app doesn't build a global weather network — it <em>calls weather.com's API</em>. APIs let companies reuse data and protect their internal systems. That's also why <strong>API testing</strong> (Part&nbsp;3.3) matters: if the contract breaks, the app silently breaks.</p>
+        <div class="video-wrap">
+          <div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/0Nl0bO9EXz0?rel=0" title="APIs in practice" allowfullscreen></iframe></div>
+        </div>
+      </section>
+
+      <section id="architecture">
+        <h2 class="sec">Part 1 · Software foundations</h2>
+        <h3>Monolithic vs microservices</h3>
+        <p class="lead">How a customer <em>structures</em> their app tells you how much testing pain they have.</p>
+        <table class="tbl">
+          <tr><th>Monolithic</th><th>Microservices</th></tr>
+          <tr><td>Whole app is <strong>one codebase</strong>, one deploy, one repo.</td><td>App is split into <strong>small independent services</strong>, each owning one job.</td></tr>
+          <tr><td>Quicker to start; easy to build &amp; debug locally.</td><td>Scales independently; a failure in one service doesn't kill the app.</td></tr>
+          <tr><td>Gets <strong>bloated</strong>; <em>any</em> change means re-test &amp; re-deploy <em>everything</em>.</td><td>Adds <strong>complexity</strong> — network latency, monitoring, more pipelines.</td></tr>
+          <tr><td>Used by startups for speed-to-market.</td><td>Used by giants like Amazon &amp; Netflix at scale.</td></tr>
+        </table>
+        <div class="callout key"><span class="ic">🔑</span><div><p><strong>Sales signal:</strong> microservices = many independent pieces being released daily = a <em>huge</em> need for fast, parallel, automated regression testing. That's exactly TestMu&nbsp;AI's sweet spot.</p></div></div>
+        <p>General rule customers follow: <em>"Start with a monolith, move to microservices only when you actually have scaling problems."</em></p>
+        <div class="video-wrap"><img src="assets/monolith-microservices.png" alt="Monolithic vs Microservices infographic" style="width:100%;border-radius:12px;box-shadow:var(--shadow)" /><div class="vid-cap">Reference infographic: monolithic vs microservice architecture.</div></div>
+      </section>
+
+      <section id="integrations">
+        <h2 class="sec">Part 1 · Software foundations</h2>
+        <h3>Integrations, cloud, open-source &amp; proprietary</h3>
+        <div class="grid two">
+          <div class="card"><span class="tag">Integration</span><p>Merging systems so they work as one. An <strong>API</strong> is the translator that makes it happen. TestMu&nbsp;AI offers <strong>120+ integrations</strong> (Jira, Slack, GitHub, Asana, Trello…).</p></div>
+          <div class="card"><span class="tag">Cloud software</span><p>Apps &amp; data accessed over the internet — a <em>locker reachable from any device</em>. Benefits: flexibility, accessibility, collaboration, pay-for-what-you-use.</p></div>
+          <div class="card"><span class="tag">Open source (OSS)</span><p>Code anyone can view, modify &amp; share — a <em>community garden</em>. Free, customisable, community-supported.</p></div>
+          <div class="card"><span class="tag">Proprietary</span><p>Source code hidden; you buy it (e.g. Windows, Photoshop). Dedicated support &amp; security. <strong>TestMu&nbsp;AI is proprietary</strong> — but with <strong>open API integrations</strong>.</p></div>
+        </div>
+        <h5>Cloud migration — the 5 steps</h5>
+        <div class="chips">
+          <span class="chip">1 · Assessment</span><span class="chip">2 · Provider selection</span><span class="chip">3 · Data-transfer planning</span><span class="chip">4 · Execution</span><span class="chip">5 · Validation &amp; optimisation</span>
+        </div>
+        <p>Why this matters: customers moving to the cloud are <em>also</em> rethinking how they test. Moving testing to a cloud platform (instead of buying device labs) is the same shift — from <strong>CapEx to OpEx</strong>. That's a core TestMu&nbsp;AI value prop you'll meet in Part&nbsp;4.</p>
+      </section>
+
+      <!-- =====================================================
+           PART 2 — HOW SOFTWARE IS BUILT
+           ===================================================== -->
+      <section id="sdlc">
+        <h2 class="sec">Part 2 · How software is built</h2>
+        <h3>The SDLC — six phases</h3>
+        <p class="lead">SDLC = <strong>Software Development Life Cycle</strong>: the structured process for taking software from idea to live product. It relies on planning rather than "a roll of the dice." Conceived by Winston W. Royce in the 1970s.</p>
+        <div class="grid three">
+          <div class="card"><span class="tag">1 · Planning &amp; requirements</span><p>Define purpose, scope, needs. Output: the <strong>SRS</strong> (Software Requirements Specification).</p></div>
+          <div class="card"><span class="tag">2 · Design</span><p>The technical "blueprint" — architecture, UI, tech stack. Output: the <strong>DDS</strong> (Design Document Specification).</p></div>
+          <div class="card"><span class="tag">3 · Implementation</span><p>Developers write the actual code. Usually the longest phase.</p></div>
+          <div class="card"><span class="tag">4 · Testing</span><p>QA runs test cases; bugs go back to devs until it's stable. <strong>This is where the STLC lives →</strong></p></div>
+          <div class="card"><span class="tag">5 · Deployment</span><p>Released to production for real users — increasingly automated via DevOps.</p></div>
+          <div class="card"><span class="tag">6 · Maintenance</span><p>Monitor the live app; fix bugs, improve, ship updates.</p></div>
+        </div>
+        <div class="analogy"><b>Construction analogy:</b> Planning = "I want a 3-bedroom house." Design = architect's blueprints. Implementation = pouring concrete. Testing = inspectors checking wiring &amp; plumbing. Deployment = handing over the keys. Maintenance = fixing a leaky roof a year later.</div>
+        <div class="video-wrap">
+          <div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/Exlokd9Lc6U?rel=0" title="SDLC to hyperspeed" allowfullscreen></iframe></div>
+          <div class="vid-cap"><b>Watch:</b> from blueprints to hyperspeed — how the SDLC is being compressed by automation.</div>
+        </div>
+      </section>
+
+      <section id="methodologies">
+        <h2 class="sec">Part 2 · How software is built</h2>
+        <h3>Agile, Waterfall &amp; DevOps</h3>
+        <p class="lead">The same six SDLC phases get <em>organised</em> in very different ways. Which one a customer uses changes how — and how often — they test.</p>
+        <table class="tbl">
+          <tr><th>Feature</th><th>Waterfall</th><th>Agile</th></tr>
+          <tr><td>Shape</td><td>One long, linear sequence</td><td>Many short cycles called <strong>Sprints</strong> (1–4 weeks)</td></tr>
+          <tr><td>Requirements</td><td>Fixed &amp; fully defined up front</td><td>Expected to evolve with feedback</td></tr>
+          <tr><td>Testing</td><td>Only <em>after</em> building is complete</td><td><strong>Continuously</strong>, every sprint</td></tr>
+          <tr><td>Risk</td><td>High — a late error means rolling back to stage one</td><td>Lower — issues caught early via frequent testing</td></tr>
+          <tr><td>Best for</td><td>Fixed-requirement projects (gov, defence)</td><td>Startups, consumer apps, fast-moving markets</td></tr>
+        </table>
+        <p>The <strong>Agile Manifesto (2001)</strong> was a direct response to Waterfall's rigidity. Agile umbrella frameworks: <strong>Scrum</strong> (sprints), <strong>Kanban</strong> (visual boards), <strong>Lean</strong> (Build-Measure-Learn), <strong>XP</strong> (test-driven development, pair programming).</p>
+        <h5>DevOps — the modern evolution</h5>
+        <p>DevOps = <strong>Development + Operations</strong> merged into one collaborative team. It's visualised as an <strong>infinity loop</strong> (Plan → Code → Build → Test → Release → Deploy → Operate → Monitor → back to Plan). It uses CI/CD to shrink the SDLC loop from <em>weeks → minutes</em>. Testing stops being a phase and becomes <strong>continuous</strong>.</p>
+        <div class="video-grid">
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/qBUvwjwFkAE?rel=0" title="Methodologies" allowfullscreen></iframe></div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/9X-zVmS1-Ug?rel=0" title="DevOps explained" allowfullscreen></iframe></div></div>
+        </div>
+      </section>
+
+      <section id="cicd">
+        <h2 class="sec">Part 2 · How software is built</h2>
+        <h3>CI/CD &amp; environments</h3>
+        <p class="lead">CI/CD is the <strong>"smart conveyor belt"</strong> that moves code from a laptop to production with automated checks at every step.</p>
+        <div class="grid three">
+          <div class="card"><span class="tag">CI — Continuous Integration</span><p>Automatically check &amp; merge code changes into a shared repo, running tests on every commit.</p></div>
+          <div class="card"><span class="tag">CD — Continuous Delivery</span><p>Validated code is prepared for release, awaiting <em>human</em> approval to ship.</p></div>
+          <div class="card"><span class="tag">Continuous Deployment</span><p>Goes one step further — ships to production with <em>no</em> human approval.</p></div>
+        </div>
+        <h5>Environments code travels through</h5>
+        <div class="chips"><span class="chip">Local / dev</span><span class="chip">Testing / QA server</span><span class="chip">Pre-production (test &amp; validate)</span><span class="chip">Production (live, highest reliability)</span></div>
+        <h5>The 12 CI/CD tools you'll hear named</h5>
+        <table class="tbl">
+          <tr><th>Category</th><th>Tools</th></tr>
+          <tr><td>Platform-native</td><td>GitHub Actions, GitLab CI/CD, Bitbucket Pipelines, Azure DevOps</td></tr>
+          <tr><td>Cloud-native / speed</td><td>CircleCI, Travis CI, Harness</td></tr>
+          <tr><td>Enterprise / on-prem</td><td>Jenkins, TeamCity, Bamboo</td></tr>
+          <tr><td>Specialised deployment</td><td>Spinnaker, Argo CD (GitOps)</td></tr>
+        </table>
+        <div class="callout key"><span class="ic">🔑</span><div><p><strong>Sales signal:</strong> when a prospect names any of these, they have a pipeline — which means they want <em>tests that run automatically inside it</em>. TestMu&nbsp;AI plugs into all of them, so regression runs on every commit.</p></div></div>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/a6s9oaBxEBM?rel=0" title="CI/CD tools" allowfullscreen></iframe></div></div>
+      </section>
+
+      <!-- =====================================================
+           PART 3 — HOW SOFTWARE IS TESTED  (the expanded gap)
+           ===================================================== -->
+      <section id="stlc">
+        <h2 class="sec">Part 3 · How software is tested</h2>
+        <h3>The Software Testing Life Cycle (STLC)</h3>
+        <p class="lead">Here's the section that was missing. <strong>The STLC is the testing equivalent of the SDLC</strong> — it lives <em>inside</em> the SDLC's testing phase. Understand this and you understand the entire problem space TestMu&nbsp;AI sells into.</p>
+        <table class="tbl">
+          <tr><th>SDLC (the parent)</th><th>STLC (the child)</th></tr>
+          <tr><td>Builds the product, start to finish.</td><td>Verifies &amp; validates the product within it.</td></tr>
+          <tr><td>Whole technical team.</td><td>Mainly the QA team.</td></tr>
+          <tr><td>Phases: Planning → Analysis → Design → Development → Testing → Maintenance.</td><td>Phases: Requirement Analysis → Test Planning → Test Case Dev → Environment Setup → Execution → Closure.</td></tr>
+        </table>
+        <div class="analogy"><b>House analogy:</b> SDLC is building the whole house. STLC is the <strong>home inspection</strong> inside that build — planning what to check, testing the wiring &amp; water pressure, and reporting cracks before the owner moves in.</div>
+        <h5>Verification vs validation (reviewers love this distinction)</h5>
+        <div class="grid two">
+          <div class="card"><span class="tag">Verification</span><p>"Are we building the system <strong>right</strong>?" — does it meet the technical spec?</p></div>
+          <div class="card"><span class="tag">Validation</span><p>"Are we building the <strong>right</strong> system?" — is it what the user actually needs?</p></div>
+        </div>
+        <h5>The six STLC phases</h5>
+        <div class="grid three">
+          <div class="card"><span class="tag">1 · Requirement analysis</span><p>QA studies requirements to find what's <strong>testable</strong>. Output: queries list + automation-feasibility report.</p></div>
+          <div class="card"><span class="tag">2 · Test planning</span><p>The most important phase. Test Manager defines strategy, effort &amp; cost. Output: the <strong>Test Plan</strong>.</p></div>
+          <div class="card"><span class="tag">3 · Test case development</span><p>Write detailed test cases + data. Use a <strong>traceability matrix</strong> for 100% coverage.</p></div>
+          <div class="card"><span class="tag">4 · Environment setup</span><p>Configure the test infrastructure; run <strong>smoke tests</strong> to confirm it's ready.</p></div>
+          <div class="card"><span class="tag">5 · Test execution</span><p>Run the tests; mark Pass/Fail/Blocked; log defects to developers; retest fixes.</p></div>
+          <div class="card"><span class="tag">6 · Cycle closure</span><p>Evaluate coverage &amp; quality, hand over to maintenance, record lessons learned.</p></div>
+        </div>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/zzjTXzJkLtA?rel=0" title="Software Testing Life Cycle" allowfullscreen></iframe></div>
+        <div class="vid-cap"><b>Watch:</b> the Software Testing Life Cycle, phase by phase.</div></div>
+      </section>
+
+      <section id="frontend-testing">
+        <h2 class="sec">Part 3 · How software is tested</h2>
+        <h3>Frontend testing explained</h3>
+        <p class="lead">This is where TestMu&nbsp;AI does most of its work, so it deserves its own section. <strong>Frontend testing</strong> = making sure everything the user sees and does actually works — on <em>every</em> browser, device and screen size.</p>
+        <h5>Why it's uniquely hard: digital fragmentation</h5>
+        <p>A modern web app must work across <strong>3,000+</strong> browser/OS combinations and <strong>10,000+</strong> real device permutations. Testing all of that by hand is impossible — this is the core problem the whole industry (and TestMu&nbsp;AI) exists to solve.</p>
+        <div class="grid two">
+          <div class="card"><span class="tag">Cross-browser testing</span><p>Does the site render &amp; behave correctly in Chrome, Safari, Edge, Firefox… and old versions of each?</p></div>
+          <div class="card"><span class="tag">Cross-device / responsive</span><p>Does it work on real iPhones, Androids, tablets and desktops at every resolution?</p></div>
+          <div class="card"><span class="tag">Visual / UI testing</span><p>Do buttons, layouts and pixels look right? Catch visual regressions a functional test would miss.</p></div>
+          <div class="card"><span class="tag">UX / accessibility testing</span><p>Is the journey smooth <em>and usable by everyone</em>, including people using assistive tech?</p></div>
+        </div>
+        <h5>Manual vs automated frontend testing</h5>
+        <table class="tbl">
+          <tr><th></th><th>Manual</th><th>Automated</th></tr>
+          <tr><td>How</td><td>A human checks each screen</td><td>Software runs scripted tests</td></tr>
+          <tr><td>Best for</td><td>Exploratory, UX, one-off checks</td><td>Repetitive, regression, scale</td></tr>
+          <tr><td>Speed &amp; consistency</td><td>Slow, varies by person</td><td>Fast, identical every run</td></tr>
+          <tr><td>Analogy</td><td>Cleaning by hand</td><td>A <em>robot vacuum</em> that cleans for you</td></tr>
+        </table>
+        <div class="callout warn"><span class="ic">⚠️</span><div><h5>The pain to listen for</h5><p>"We can't get full test coverage." "Our tests are <strong>flaky</strong>." "Testing is a <strong>bottleneck</strong>." "We can't keep up with browsers/devices." Every one of these is a frontend-testing problem TestMu&nbsp;AI is built to solve — see Part&nbsp;4.</p></div></div>
+      </section>
+
+      <section id="testing-types">
+        <h2 class="sec">Part 3 · How software is tested</h2>
+        <h3>Types of testing</h3>
+        <p class="lead">Tests are organised by <strong>level</strong> (how much of the app) and by <strong>approach</strong>. Know these names cold.</p>
+        <h5>The four levels</h5>
+        <div class="grid two">
+          <div class="card"><span class="tag">Unit</span><p>The smallest piece (one function/module). Done during coding by developers.</p></div>
+          <div class="card"><span class="tag">Integration</span><p>Do combined modules work together correctly?</p></div>
+          <div class="card"><span class="tag">System</span><p>The whole integrated app tested against requirements. Includes <strong>Alpha</strong> (internal) &amp; <strong>Beta</strong> (friendly customers) testing.</p></div>
+          <div class="card"><span class="tag">Regression</span><p>Did a new change <strong>break something that already worked</strong>? Run in the maintenance phase — and the #1 thing customers automate.</p></div>
+        </div>
+        <h5>By approach &amp; purpose</h5>
+        <table class="tbl">
+          <tr><th>Type</th><th>What it checks</th><th>Analogy</th></tr>
+          <tr><td>API testing</td><td>Systems exchange data correctly (Postman, SoapUI)</td><td>A letter needs the right <em>address</em> to be delivered</td></tr>
+          <tr><td>End-to-end (E2E)</td><td>A whole user workflow, start to finish</td><td>A <em>train journey</em> — everything ready before departure</td></tr>
+          <tr><td>Black box / White box</td><td>Test by inputs/outputs vs by internal code</td><td>—</td></tr>
+          <tr><td>Performance (load/stress)</td><td>Does it crash or recover under heavy traffic?</td><td>—</td></tr>
+          <tr><td>Security</td><td>Is data safe from unauthorised access?</td><td>—</td></tr>
+          <tr><td>Acceptance</td><td>Does the customer accept it as meeting their needs?</td><td>—</td></tr>
+        </table>
+        <div class="callout tip"><span class="ic">💡</span><div><p><strong>Risk-based regression</strong> is a phrase that impresses: prioritise testing the highest-business-impact areas first (e.g. an e-commerce <em>checkout</em>), and wire those regression tests into the CI/CD pipeline for continuous feedback.</p></div></div>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/0Nl0bO9EXz0?rel=0" title="Types of software testing" allowfullscreen></iframe></div></div>
+      </section>
+
+      <section id="jargon">
+        <h2 class="sec">Part 3 · How software is tested</h2>
+        <h3>Testing jargon — the words on every call</h3>
+        <p class="lead">These are the terms a QA prospect will use without explaining. Don't get caught off guard.</p>
+        <div class="grid three">
+          <div class="card"><span class="tag">Test case</span><p>A set of steps to verify one feature — purpose, steps, expected result.</p></div>
+          <div class="card"><span class="tag">Bug / defect</span><p>An error causing wrong behaviour. Origins: coding mistakes, bad requirements, environment changes.</p></div>
+          <div class="card"><span class="tag">Test coverage</span><p>% of code/functionality exercised by tests. Low coverage = bugs slip through.</p></div>
+          <div class="card"><span class="tag">Flaky test</span><p>A test that passes/fails inconsistently without code changes — the "maintenance nightmare".</p></div>
+          <div class="card"><span class="tag">Regression suite</span><p>The battery of tests proving old features still work.</p></div>
+          <div class="card"><span class="tag">Parallel testing</span><p>Running many tests at once to slash execution time.</p></div>
+          <div class="card"><span class="tag">Release velocity</span><p>How fast updates reach users = (releases ÷ time). Slow velocity loses to competitors.</p></div>
+          <div class="card"><span class="tag">Traceability matrix</span><p>Links test cases to requirements so nothing goes untested.</p></div>
+          <div class="card"><span class="tag">Test data management</span><p>Creating/masking/subsetting data for realistic tests.</p></div>
+        </div>
+        <p>There are 60 jargon cards in the <a class="inline" href="#flashcards">flashcard deck</a> — drill them before the assignment.</p>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/k-DgcPraWns?rel=0" title="Testing jargon" allowfullscreen></iframe></div></div>
+      </section>
+
+      <!-- =====================================================
+           PART 4 — WHERE TESTMU AI FITS
+           ===================================================== -->
+      <section id="fit">
+        <h2 class="sec">Part 4 · Where TestMu AI fits</h2>
+        <h3>TestMu AI in the SDLC</h3>
+        <p class="lead">Now the payoff. Everything in Parts 1–3 was the <em>problem</em>. TestMu&nbsp;AI is the answer, organised as the <strong>Agentic Testing Life Cycle</strong> — four stages that map straight onto the SDLC/STLC you just learned.</p>
+        <div class="phasebar">
+          <div class="p plan"><div class="e">🗂️</div><b>Plan</b><span>Test Manager</span></div>
+          <div class="p author"><div class="e">✍️</div><b>Author</b><span>KaneAI</span></div>
+          <div class="p exec"><div class="e">⚡</div><b>Execute</b><span>HyperExecute + Cloud</span></div>
+          <div class="p analyse"><div class="e">🔍</div><b>Analyse</b><span>Test Intelligence</span></div>
+        </div>
+        <h5>The problem in two words: digital fragmentation</h5>
+        <p>Making one app work perfectly across a constantly-growing universe of browsers, devices &amp; OSes. TestMu&nbsp;AI delivers <strong>quality engineering as a service</strong> — handling all that infrastructure so customers don't have to. Three messaging pillars: <strong>Speed, Intelligence, Value</strong>.</p>
+        <h5>The three-layer approach</h5>
+        <div class="grid three">
+          <div class="card"><span class="tag">Foundation</span><p>The cloud grid — <strong>3,000+ environments &amp; 10,000+ real device</strong> combinations. Moves customers from CapEx (buying hardware) to OpEx (pay-as-you-go).</p></div>
+          <div class="card"><span class="tag">The Engine</span><p><strong>HyperExecute</strong> — the AI-native orchestration cloud that runs tests up to <strong>70% faster</strong> by killing the "ping-pong effect".</p></div>
+          <div class="card"><span class="tag">The Brain</span><p><strong>KaneAI</strong> + <strong>Test Intelligence</strong> — AI that authors tests in plain English, self-heals them, and finds root causes.</p></div>
+        </div>
+        <div class="callout key"><span class="ic">🔑</span><div><h5>The killer mechanics to remember</h5><p><strong>HyperExecute</strong> eliminates the "ping-pong effect" (commands bouncing over the internet) by putting test + machine in one place — feedback in minutes, not hours. <strong>KaneAI</strong> lets anyone author tests in plain English and <strong>auto-heals</strong> them when the UI changes, by understanding the original intent.</p></div></div>
+      </section>
+
+      <section id="walkthrough">
+        <h2 class="sec">Part 4 · Where TestMu AI fits</h2>
+        <h3>Product walkthrough — watch the demos</h3>
+        <p class="lead">All 14 product demos, grouped by the four lifecycle stages. The assignment expects you to describe what each does — so watch, don't skim.</p>
+
+        <h4>🗂️ Plan — bring order to chaos</h4>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/qBUvwjwFkAE?rel=0" title="Test Manager" allowfullscreen></iframe></div>
+        <div class="vid-cap"><b>Test Manager</b> — AI-powered test-case management unifying manual &amp; automated testing, with a deep two-way <strong>Jira sync</strong> so teams never leave the tool they live in.</div></div>
+
+        <h4>✍️ Author — anyone can write a test</h4>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/Uc525e7RXs0?rel=0" title="KaneAI" allowfullscreen></iframe></div>
+        <div class="vid-cap"><b>KaneAI</b> — the GenAI-native test agent. Plan, author &amp; execute tests in <strong>plain English</strong>, no coding required. Solves the "maintenance nightmare" by auto-healing tests when the app changes.</div></div>
+
+        <h4>⚡ Execute — fast, everywhere, on everything</h4>
+        <div class="video-grid">
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/Exlokd9Lc6U?rel=0" title="HyperExecute" allowfullscreen></iframe></div><div class="vid-cap"><b>HyperExecute</b> — AI-native orchestration, up to 70% faster E2E runs.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/0Nl0bO9EXz0?rel=0" title="Automation testing" allowfullscreen></iframe></div><div class="vid-cap"><b>Automation testing</b> of websites &amp; mobile apps at scale.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/9X-zVmS1-Ug?rel=0" title="SmartUI" allowfullscreen></iframe></div><div class="vid-cap"><b>SmartUI</b> — AI visual regression testing; compare live pages to Figma pixel-by-pixel.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/a6s9oaBxEBM?rel=0" title="Real-time desktop browsers" allowfullscreen></iframe></div><div class="vid-cap"><b>Real-time testing</b> on desktop browsers.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/zzjTXzJkLtA?rel=0" title="Real device browser" allowfullscreen></iframe></div><div class="vid-cap"><b>Real device cloud</b> — browser testing on real devices.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/k-DgcPraWns?rel=0" title="Real device app" allowfullscreen></iframe></div><div class="vid-cap"><b>Real device cloud</b> — app testing on real iPhones &amp; Androids.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/-5WKLkK8YOw?rel=0" title="Accessibility automation" allowfullscreen></iframe></div><div class="vid-cap"><b>Accessibility automation</b> — build inclusive web experiences.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/7CuoCS7dX70?rel=0" title="Accessibility DevTools" allowfullscreen></iframe></div><div class="vid-cap"><b>Accessibility DevTools</b> Chrome extension.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/RHQEt_Khfdg?rel=0" title="Scheduled accessibility scans" allowfullscreen></iframe></div><div class="vid-cap"><b>Scheduled accessibility scans</b> — automate ongoing compliance.</div></div>
+        </div>
+
+        <h4>🤖 The new frontier — testing AI itself</h4>
+        <p>TestMu&nbsp;AI is positioned as the only real choice for validating the new wave of AI apps — <strong>agent-to-agent testing</strong>, where one AI agent tests another.</p>
+        <div class="video-grid">
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/4OqhwjV0-E8?rel=0" title="Agent Testing Platform" allowfullscreen></iframe></div><div class="vid-cap"><b>Agent Testing Platform</b> — the world's first.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/i-5WcM2vZzk?rel=0" title="Voice agent testing" allowfullscreen></iframe></div><div class="vid-cap"><b>Voice agents</b> — test accuracy &amp; performance.</div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/7Y5wvOqv1-U?rel=0" title="Chatbot testing" allowfullscreen></iframe></div><div class="vid-cap"><b>AI chatbots</b> — test across real scenarios.</div></div>
+        </div>
+
+        <h4>🔍 Analyse — close the loop</h4>
+        <p><strong>Test Intelligence</strong> acts as an "AI detective" that categorises failures and pinpoints root causes — turning a wall of red into a clear answer. The long-term vision: <strong>autonomous quality forecasting</strong> — predicting bug risk before a test even runs.</p>
+
+        <div class="callout tip"><span class="ic">💡</span><div><p><strong>Deployment flexibility:</strong> three models — Shared Cloud, Private Cloud, and On-Premise (for HyperExecute) — so even security-strict enterprises can adopt it.</p></div></div>
+      </section>
+
+      <!-- =====================================================
+           PART 5 — GO TO MARKET
+           ===================================================== -->
+      <section id="gtm">
+        <h2 class="sec">Part 5 · Go to market</h2>
+        <h3>Mission, ICP &amp; competition</h3>
+        <h5>Mission &amp; vision</h5>
+        <p>To lead the entire industry into the era of <strong>AI-native testing</strong> — beyond just finding bugs faster, toward autonomous quality forecasting. <em>Gartner predicts 70% of enterprises will use AI-augmented testing by 2028.</em> TestMu&nbsp;AI sits in the <strong>Challengers</strong> quadrant of the 2025 Gartner Magic Quadrant.</p>
+        <h5>Ideal Customer Profile (ICP)</h5>
+        <div class="grid three">
+          <div class="card"><span class="tag">Industries</span><p>B2B in tech, e-commerce &amp; digital transformation.</p></div>
+          <div class="card"><span class="tag">Size</span><p><strong>100+ employees</strong> — past the point where manual testing is sustainable; has budget &amp; pain.</p></div>
+          <div class="card"><span class="tag">Green lights</span><p>Already using Selenium, Cypress, Appium or Playwright = ready buyer.</p></div>
+        </div>
+        <h5>Who to target</h5>
+        <p><strong>Decision-makers:</strong> QA Managers, Directors of Test Engineering, VPs. <strong>Power users</strong> (don't sleep on them): SDETs &amp; Automation Leads — their recommendations carry weight.</p>
+        <h5>Competitive landscape</h5>
+        <table class="tbl">
+          <tr><th>Tier</th><th>Players</th></tr>
+          <tr><td>Incumbents</td><td>BrowserStack, Sauce Labs</td></tr>
+          <tr><td>Mobile specialists</td><td>Device-cloud-focused vendors</td></tr>
+          <tr><td>AI upstarts</td><td>Newer AI-testing entrants</td></tr>
+          <tr><td>Niche platforms</td><td>Single-purpose tools</td></tr>
+        </table>
+        <p>The core narrative difference: <strong>BrowserStack's story is volume</strong> (a big device farm); <strong>TestMu&nbsp;AI's story is velocity &amp; intelligence</strong> (an AI-native platform). We lead on test orchestration, service virtualization, test-data generation &amp; reporting — and can be up to <strong>60% more cost-effective</strong>.</p>
+        <div class="video-grid">
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/i-5WcM2vZzk?rel=0" title="Mission and vision" allowfullscreen></iframe></div></div>
+          <div><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/4OqhwjV0-E8?rel=0" title="Competitive landscape" allowfullscreen></iframe></div></div>
+        </div>
+      </section>
+
+      <section id="messaging">
+        <h2 class="sec">Part 5 · Go to market</h2>
+        <h3>Messaging &amp; objection handling</h3>
+        <h5>Buying signals — when a deal is hot</h5>
+        <div class="chips">
+          <span class="chip">"bottleneck"</span><span class="chip">"can't get full coverage"</span><span class="chip">"scalability + integration"</span><span class="chip">asks for a trial/POC</span><span class="chip">names a competitor</span><span class="chip">DevOps/PM in the meeting</span>
+        </div>
+        <h5>Map frameworks → needs</h5>
+        <table class="tbl">
+          <tr><th>They use…</th><th>You think…</th></tr>
+          <tr><td>Selenium</td><td>Needs a scalable, reliable grid for big cross-browser runs</td></tr>
+          <tr><td>Cypress</td><td>Turbocharge with massive parallelisation</td></tr>
+          <tr><td>Appium</td><td>Urgent need for the real device cloud</td></tr>
+          <tr><td>Playwright</td><td>Forward-thinking team — matches our modern platform</td></tr>
+        </table>
+        <h5>The three classic objections — and the pivot</h5>
+        <div class="grid three">
+          <div class="card"><span class="tag">"BrowserStack has more devices"</span><p><strong>Pivot to speed:</strong> "Are you optimising for device count, or for 70% faster release velocity?"</p></div>
+          <div class="card"><span class="tag">"We need a proven market leader"</span><p><strong>Pivot to innovation:</strong> "That's why Gartner calls us a Challenger — we're built for the future, not the past."</p></div>
+          <div class="card"><span class="tag">"Your AI sounds complex"</span><p><strong>Pivot to simplicity:</strong> "KaneAI makes testing simpler — anyone can write tests in plain English."</p></div>
+        </div>
+        <p>Every conversation should map back to the four goals customers chase: <strong>improve efficiency, get consistent cross-platform experience, speed up release cycles,</strong> and <strong>get data to prove quality.</strong></p>
+        <div class="video-wrap"><div class="video"><iframe loading="lazy" src="https://www.youtube-nocookie.com/embed/Exlokd9Lc6U?rel=0" title="Value proposition" allowfullscreen></iframe></div>
+        <div class="vid-cap"><b>Watch:</b> the unified testing cloud &amp; AI-native value proposition, end to end.</div></div>
+      </section>
+
+      <!-- =====================================================
+           PART 6 — FLASHCARDS
+           ===================================================== -->
+      <section id="flashcards">
+        <h2 class="sec">Part 6 · Study</h2>
+        <h3>Flashcard decks</h3>
+        <p class="lead">All <strong id="totalCards2">500+</strong> flashcards from the module, grouped by topic. Click a deck, then click a card to flip. Use <kbd>←</kbd>/<kbd>→</kbd> to move and <kbd>space</kbd> to flip.</p>
+        <div id="flashApp"></div>
+      </section>
+
+      <div class="footer">
+        TestMu&nbsp;AI (formerly LambdaTest) · Module&nbsp;1 Product Knowledge · Internal enablement — please don't redistribute.
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<script src="assets/flashcards.js"></script>
+<script src="assets/app.js"></script>
+<script>
+  // mirror total count into the second placeholder
+  (function(){var d=window.FLASHCARD_DECKS||[];var t=d.reduce(function(s,x){return s+x.cards.length;},0);
+   var e=document.getElementById('totalCards2'); if(e&&t) e.textContent=t;})();
+</script>
+</body>
+</html>
